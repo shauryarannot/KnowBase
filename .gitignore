@@ -1,0 +1,5 @@
+data/
+docx/
+check_json.py
+.env
+venv

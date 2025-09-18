@@ -1,0 +1,150 @@
+{
+  "content": [
+    {
+      "title": "AI Academy",
+      "description": "Campus focused on Generative AI, RAG, and Agents.",
+      "courses": [
+        {
+          "title": "Generative AI Fundamentals",
+          "description": "Covers basics of generative AI and applications.",
+          "modules": [
+            { "title": "Introduction to Generative AI", "description": "Overview of generative models" },
+            { "title": "How LLMs Work", "description": "Understanding transformer architectures" },
+            { "title": "Prompt Engineering Basics", "description": "Techniques to guide model outputs" },
+            { "title": "Ethical AI and Bias", "description": "AI fairness and bias mitigation" }
+          ]
+        },
+        {
+          "title": "RAG Systems",
+          "description": "Learn Retrieval-Augmented Generation pipelines.",
+          "modules": [
+            { "title": "Understanding Embeddings", "description": "Vector representations of text" },
+            { "title": "Vector Databases", "description": "Using Pinecone, Weaviate, Milvus" },
+            { "title": "Document Chunking", "description": "Breaking data into retrievable units" },
+            { "title": "Implementing RAG", "description": "End-to-end RAG pipelines" },
+            { "title": "Optimizing RAG", "description": "Scaling and performance tuning" }
+          ]
+        },
+        {
+          "title": "AI Agents",
+          "description": "Covers agent architectures and tool integration.",
+          "modules": [
+            { "title": "What are AI Agents?", "description": "Introduction to autonomous AI agents" },
+            { "title": "LangChain Agents", "description": "Using LangChain for building agents" },
+            { "title": "Tool Integration", "description": "Connecting APIs and tools to agents" },
+            { "title": "Multi-Agent Systems", "description": "Coordinating multiple agents" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cloud School",
+      "description": "Campus for cloud infrastructure and deployment.",
+      "courses": [
+        {
+          "title": "Cloud & Deployment",
+          "description": "Learn how to deploy AI on the cloud.",
+          "modules": [
+            { "title": "AWS Fundamentals", "description": "Introduction to AWS services" },
+            { "title": "GCP & Azure Basics", "description": "Core concepts of GCP and Azure" },
+            { "title": "Serverless vs Containers", "description": "Deployment options comparison" },
+            { "title": "CI/CD Pipelines", "description": "Automating deployment workflows" },
+            { "title": "Scaling AI Apps", "description": "Handling large-scale traffic" }
+          ]
+        },
+        {
+          "title": "Kubernetes for AI",
+          "description": "Covers container orchestration and scaling AI apps.",
+          "modules": [
+            { "title": "Introduction to Kubernetes", "description": "Core K8s components" },
+            { "title": "Helm & Operators", "description": "Managing deployments with Helm" },
+            { "title": "GPU Scheduling", "description": "Running AI workloads efficiently" },
+            { "title": "Monitoring & Logging", "description": "Best practices for observability" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Data Science Campus",
+      "description": "Focus on data preparation, ML, and pipelines.",
+      "courses": [
+        {
+          "title": "Data Preprocessing",
+          "description": "Learn how to clean and prepare data.",
+          "modules": [
+            { "title": "Data Cleaning", "description": "Handling missing values and outliers" },
+            { "title": "Feature Engineering", "description": "Transforming raw data" },
+            { "title": "Data Augmentation", "description": "Synthetic data generation" }
+          ]
+        },
+        {
+          "title": "Machine Learning",
+          "description": "Covers supervised and unsupervised learning.",
+          "modules": [
+            { "title": "Linear & Logistic Regression", "description": "Fundamentals of regression" },
+            { "title": "Decision Trees & Random Forests", "description": "Tree-based models" },
+            { "title": "Clustering Algorithms", "description": "K-means, DBSCAN, hierarchical clustering" },
+            { "title": "Model Evaluation", "description": "Metrics and validation techniques" }
+          ]
+        },
+        {
+          "title": "MLOps",
+          "description": "Learn ML lifecycle and deployment pipelines.",
+          "modules": [
+            { "title": "Versioning Models & Data", "description": "Using DVC & MLflow" },
+            { "title": "Continuous Training", "description": "Automating retraining" },
+            { "title": "Monitoring Models", "description": "Drift detection and logging" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Full-Stack Campus",
+      "description": "Covers integration of AI into web applications.",
+      "courses": [
+        {
+          "title": "FastAPI for AI",
+          "description": "Build production-ready APIs with FastAPI.",
+          "modules": [
+            { "title": "Routing & Middleware", "description": "Core FastAPI concepts" },
+            { "title": "Authentication & Security", "description": "Implementing JWT, OAuth" },
+            { "title": "Streaming Responses", "description": "WebSocket & SSE for AI chat" }
+          ]
+        },
+        {
+          "title": "Frontend + AI",
+          "description": "Learn to integrate AI into modern UIs.",
+          "modules": [
+            { "title": "React + AI APIs", "description": "Connecting frontend to backend" },
+            { "title": "Chat Interfaces", "description": "Designing user-friendly chatbots" },
+            { "title": "Real-time Updates", "description": "WebSocket-based UIs" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Security & Ethics Campus",
+      "description": "Covers AI safety, governance, and compliance.",
+      "courses": [
+        {
+          "title": "AI Security",
+          "description": "Defending AI systems from attacks.",
+          "modules": [
+            { "title": "Prompt Injection", "description": "Common attacks and defenses" },
+            { "title": "Adversarial ML", "description": "Adversarial examples & robustness" },
+            { "title": "Data Privacy", "description": "Differential privacy & encryption" }
+          ]
+        },
+        {
+          "title": "AI Ethics & Policy",
+          "description": "Governance frameworks and ethical practices.",
+          "modules": [
+            { "title": "Responsible AI", "description": "Principles for ethical AI" },
+            { "title": "AI Regulations", "description": "Global AI laws and compliance" },
+            { "title": "Transparency & Explainability", "description": "XAI techniques" }
+          ]
+        }
+      ]
+    }
+  ]
+}
